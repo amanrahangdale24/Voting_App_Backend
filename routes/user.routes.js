@@ -105,8 +105,8 @@ router.post('/login',
 
         res.cookie(token); 
         res.send(token)
-        res.header(token)
-        res.send("user logged in")
+        
+        
         
     }
  )
